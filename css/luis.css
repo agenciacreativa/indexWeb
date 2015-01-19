@@ -9,6 +9,11 @@
 [class*="fontawesome-"]:before {
     font-family: 'FontAwesome', sans-serif;
 }
+
+h2 {
+    font-family: 'Oswald', sans-serif; 
+}
+
 .row {
     max-width: 1300px;
 }
