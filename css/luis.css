@@ -9,6 +9,11 @@
 [class*="fontawesome-"]:before {
     font-family: 'FontAwesome', sans-serif;
 }
+
+h2{
+    font-size:1.5rem;
+}
+
 .row {
     max-width: 1300px;
 }
@@ -63,6 +68,11 @@
     background-size: cover;
     background-position: center;
 }
+
+.noticiaArea p{
+ line-height: 2.6;
+}
+
 // Small screens
 @media only screen {}
 /* Define mobile styles */
@@ -84,7 +94,7 @@
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 }
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
@@ -92,7 +102,7 @@
 // Large screens
 @media only screen and (min-width: 64.063em) {
      h2 {
-        font-size: 1.7em;
+        font-size: 1.5rem;
     }
 }
 /* min-width 1025px, large screens */
