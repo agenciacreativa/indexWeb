@@ -84,13 +84,17 @@
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 }
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 // Large screens
-@media only screen and (min-width: 64.063em) {}
+@media only screen and (min-width: 64.063em) {
+     h2 {
+        font-size: 1.7em;
+    }
+}
 /* min-width 1025px, large screens */
 
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {}
