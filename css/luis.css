@@ -16,11 +16,10 @@ h2 {
     font-weight: 800;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 .row {
-    max-width: 1300px;
+    max-width: 1200px;
 }
 .cardsArea {
     background: #E3E5EF;
