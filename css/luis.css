@@ -10,8 +10,13 @@
     font-family: 'FontAwesome', sans-serif;
 }
 
+<<<<<<< HEAD
 h2{
     font-size:1.5rem;
+=======
+h2 {
+    font-family: 'Oswald', sans-serif; 
+>>>>>>> origin/master
 }
 
 .row {
