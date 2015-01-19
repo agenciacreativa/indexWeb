@@ -9,14 +9,14 @@
 [class*="fontawesome-"]:before {
     font-family: 'FontAwesome', sans-serif;
 }
-
-<<<<<<< HEAD
-h2{
-    font-size:1.5rem;
-=======
 h2 {
-    font-family: 'Oswald', sans-serif; 
->>>>>>> origin/master
+    font-size:1.5rem;
+    font-family: 'Oswald', sans-serif;   
+    font-style: bold;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 .row {
@@ -33,7 +33,7 @@ h2 {
     box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.23);
     margin: 10px 0;
     overflow: hidden;
-    padding: 0;
+    padding: 0px;
 }
 .cardPadding {
     padding: 1px 0.9375rem;
@@ -59,11 +59,12 @@ h2 {
 .cardIndexTv {
     height: 810px;
 }
-.card ul {
+
+.cardList ul {
     margin: 0;
     padding: 0;
 }
-.card ul li {
+.cardList ul li {
     border-top: solid 1px #D5D6D7;
     list-style: none;
 }
