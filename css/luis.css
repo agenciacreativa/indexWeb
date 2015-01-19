@@ -79,40 +79,14 @@ h2 {
 }
 
 // Small screens
-@media only screen {}
+@media only screen {
+
+}
 /* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
     .cardIndexTv {
         height:350px;
-    }
-
-    .barraSuperior {
-        height: 50px;
-    }
-
-    .circleLogo {
-        height: 100px;
-        width: 100px;
-    }
-
-    .logo {
-        width: 85px;
-        margin: 24px 10px;
-    }
-
-    .circleUser {
-        top: 9px;
-        width: 40px;
-        height: 40px;
-        margin-left: 68px;
-    }
-
-    .meniIcon {
-        color: #fff;
-        font-size: 2em;
-        padding: 0;
-        margin-top: -5px;
     }
 }
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
@@ -126,29 +100,9 @@ h2 {
         height:450px;
     }
 
+
     h2 {
         font-size: 1.5rem;
-    }
-
-    .circleLogo {
-        height: 120px;
-        width: 120px;
-    }
-
-    .logo {
-        width: 100px;
-        margin: 30px 10px;
-    }
-
-    .circleUser {
-        top: 11px;
-        width: 55px;
-        height: 55px;
-        margin-left: 82px;
-    }
-
-    .barraSuperior {
-        height: 65px;
     }
 }
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
@@ -161,11 +115,17 @@ h2 {
 }
 /* min-width 1025px, large screens */
 
-@media only screen and (min-width: 64.063em) and (max-width: 90em) {}
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+
+
+}
 /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
 // XLarge screens
-@media only screen and (min-width: 90.063em) {}
+@media only screen and (min-width: 90.063em) {
+
+
+}
 /* min-width 1441px, xlarge screens */
 
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {}
